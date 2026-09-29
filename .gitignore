@@ -1,6 +1,77 @@
-*.class
-*.tasty
+# ───────────────────────────────
+#  Entornos virtuales
+# ───────────────────────────────
+venv/
+.venv/
+ENV/
+env/
+
+# uv (entorno ultrarrápido)
+.uv/
+
+# ───────────────────────────────
+#  Archivos de Python
+# ───────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+
+# Compilados de Cython
+*.c
+*.so
+
+# ───────────────────────────────
+#  Dependencias
+# ───────────────────────────────
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# ───────────────────────────────
+#  Logs
+# ───────────────────────────────
 *.log
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# ───────────────────────────────
+#  Configuración de VS Code
+# ───────────────────────────────
+.vscode/
+.history/
+
+# ───────────────────────────────
+#  Archivos del sistema
+# ───────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ───────────────────────────────
+#  Archivos temporales
+# ───────────────────────────────
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# ───────────────────────────────
+#  Jupyter
+# ───────────────────────────────
+.ipynb_checkpoints/
+
+# ───────────────────────────────
+#  Pytest / Coverage
+# ───────────────────────────────
+.cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# ───────────────────────────────
+#  Otros
+# ───────────────────────────────
+*.env
+*.ini
+*.cfg
