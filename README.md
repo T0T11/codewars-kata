@@ -1,5 +1,5 @@
 # codewars-kata
-ejercicios que hare en codewars con scala
+ejercicios que hare en codewars con scala y python
 
 ## Location
 Ies de Teis 
